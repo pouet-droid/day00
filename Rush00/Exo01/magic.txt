@@ -1,0 +1,3 @@
+head -n -1 deposition_Joe_Rugiani.txt  > temp.txt && mv temp.txt deposition_Joe_Rugiani.txt
+sed 's/cadillac jaune/chevrolet impala/g' deposition_Joe_Rugiani.txt > temp.txt && mv temp.txt deposition_Joe_Rugiani.txt
+sed 's/rouge/vert/g' deposition_Joe_Rugiani.txt > temp.txt && mv temp.txt deposition_Joe_Rugiani.txt
